@@ -22,5 +22,6 @@ public class App {
         System.out.println("Nome: " + user2.getName() + "\nCPF: " + user2.getCpf() + "\nEmail: " + user2.getEmail()
                 + "\nPassword: " + user2.getPassword() + "\nCurso: " + user2.getCurso() + "\nIngresso: "
                 + user2.getIngresso() + "\nPeriodo: " + user2.getPeriodo());
+        in.close();
     }
 }

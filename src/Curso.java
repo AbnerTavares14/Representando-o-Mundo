@@ -14,7 +14,7 @@ public class Curso {
     }
 
     public void setIngresso(int ingresso) throws Exception {
-        if (ingresso < 2010 || ingresso > 2023) {
+        if (ingresso < 2008 || ingresso > 2023) {
             throw new Exception("ingresso precisa ser maior que 2008 e menor que 2023");
         }
         this.ingresso = ingresso;
